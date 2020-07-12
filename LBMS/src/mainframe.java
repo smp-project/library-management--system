@@ -62,7 +62,7 @@ public class mainframe extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
-        jButton3.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Comic Sans MS", 0, 18));
         jButton3.setText("Issue Book");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,7 +70,7 @@ public class mainframe extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Comic Sans MS", 0, 18));
         jButton4.setText("Return Book");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,7 +78,7 @@ public class mainframe extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Comic Sans MS", 0, 18));
         jButton5.setText("Pay Fine");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,13 +171,13 @@ public class mainframe extends javax.swing.JFrame {
                 .addGap(30, 30, 30))
         );
 
-        jLabel4.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Monospaced", 0, 14));
         jLabel4.setText("Enter Your Name");
 
-        jLabel5.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Monospaced", 0, 14));
         jLabel5.setText("Enter Your username");
 
-        jLabel6.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Monospaced", 0, 14));
         jLabel6.setText("Enter Your Password");
 
         nametf1.addActionListener(new java.awt.event.ActionListener() {
@@ -255,21 +255,22 @@ public class mainframe extends javax.swing.JFrame {
         Issue_frame.getContentPane().setLayout(Issue_frameLayout);
         Issue_frameLayout.setHorizontalGroup(
             Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Issue_frameLayout.createSequentialGroup()
-                .addContainerGap(471, Short.MAX_VALUE)
-                .addComponent(jButton9)
-                .addContainerGap())
             .addGroup(Issue_frameLayout.createSequentialGroup()
-                .addGap(54, 54, 54)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(117, Short.MAX_VALUE))
+                .addContainerGap(113, Short.MAX_VALUE)
+                .addGroup(Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Issue_frameLayout.createSequentialGroup()
+                        .addComponent(jButton9)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Issue_frameLayout.createSequentialGroup()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(58, 58, 58))))
         );
         Issue_frameLayout.setVerticalGroup(
             Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Issue_frameLayout.createSequentialGroup()
-                .addContainerGap()
+                .addContainerGap(60, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)
+                .addGap(27, 27, 27)
                 .addComponent(jButton9)
                 .addContainerGap())
         );
@@ -301,7 +302,7 @@ public class mainframe extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 14));
         jLabel1.setText("Library Management System");
 
-        jButton1.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Monospaced", 0, 14));
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -309,7 +310,7 @@ public class mainframe extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Monospaced", 0, 14));
         jButton2.setText("Sign Up");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
