@@ -54,11 +54,21 @@ public class mainframe extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         Issue_frame = new javax.swing.JFrame();
         jButton9 = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
         jButton10 = new javax.swing.JButton();
+        jComboBox1 = new javax.swing.JComboBox();
+        jComboBox2 = new javax.swing.JComboBox();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         return_frame = new javax.swing.JFrame();
-        jTable1 = new javax.swing.JTable();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jComboBox3 = new javax.swing.JComboBox();
+        jComboBox4 = new javax.swing.JComboBox();
+        jTable2 = new javax.swing.JTable();
         pay_frame = new javax.swing.JFrame();
         jLabel7 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
@@ -246,18 +256,6 @@ public class mainframe extends javax.swing.JFrame {
             }
         });
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
-
         jButton10.setText("BACK");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -265,45 +263,134 @@ public class mainframe extends javax.swing.JFrame {
             }
         });
 
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "'0011','FAMOUS FIVE PART-1", "'0012','FAMOUS FIVE PART-1", "'0021','FAMOUS FIVE PART-1", "'0022','FAMOUS FIVE PART-1", "'0031','FAMOUS FIVE PART-1", "'0032','FAMOUS FIVE PART-1", "'0041','FAMOUS FIVE PART-1", "'0042','FAMOUS FIVE PART-1", "'0051','FAMOUS FIVE PART-1", "'0052','FAMOUS FIVE PART-1", "'0011','SECRET SEVEN-1", "'1012','SECRET SEVEN-1", "'1021','SECRET SEVEN-2", "'1022','SECRET SEVEN-2", "'1031','SECRET SEVEN-3", "'1032','SECRET SEVEN-3", "'0011','SECRET SEVEN-1'0011','SECRET SEVEN-1" }));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "JK ROWLING", "ENID BLYTON" }));
+
+        jLabel8.setText("BOOK NAME");
+
+        jLabel9.setText("AUTHOR NAME");
+
+        jLabel10.setText("ISSUE PORTAL");
+
         javax.swing.GroupLayout Issue_frameLayout = new javax.swing.GroupLayout(Issue_frame.getContentPane());
         Issue_frame.getContentPane().setLayout(Issue_frameLayout);
         Issue_frameLayout.setHorizontalGroup(
             Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Issue_frameLayout.createSequentialGroup()
-                .addContainerGap(81, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(58, 58, 58))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Issue_frameLayout.createSequentialGroup()
-                .addGap(44, 44, 44)
-                .addComponent(jButton10)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 308, Short.MAX_VALUE)
-                .addComponent(jButton9)
+                .addGroup(Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Issue_frameLayout.createSequentialGroup()
+                        .addGap(35, 35, 35)
+                        .addComponent(jButton10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 536, Short.MAX_VALUE)
+                        .addComponent(jButton9))
+                    .addGroup(Issue_frameLayout.createSequentialGroup()
+                        .addGap(125, 125, 125)
+                        .addGroup(Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel9)
+                            .addComponent(jLabel8))
+                        .addGap(51, 51, 51)
+                        .addGroup(Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(Issue_frameLayout.createSequentialGroup()
+                        .addGap(343, 343, 343)
+                        .addComponent(jLabel10)))
                 .addContainerGap())
         );
         Issue_frameLayout.setVerticalGroup(
             Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Issue_frameLayout.createSequentialGroup()
-                .addContainerGap(61, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
+                .addGap(58, 58, 58)
+                .addComponent(jLabel10)
+                .addGap(192, 192, 192)
+                .addGroup(Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8))
+                .addGap(60, 60, 60)
+                .addGroup(Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel9))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 192, Short.MAX_VALUE)
                 .addGroup(Issue_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton9)
                     .addComponent(jButton10))
                 .addContainerGap())
         );
 
+        jButton11.setText("ISSUE BOOK");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+
+        jButton12.setText("BACK");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+
+        jLabel11.setText("ISSUE BOOK PORTAL");
+
+        jLabel12.setText("jLabel12");
+
+        jLabel13.setText("jLabel13");
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "'0011','FAMOUS FIVE PART-1", "'0012','FAMOUS FIVE PART-1", "'0021','FAMOUS FIVE PART-1", "'0022','FAMOUS FIVE PART-1", "'0031','FAMOUS FIVE PART-1", "'0032','FAMOUS FIVE PART-1", "'0041','FAMOUS FIVE PART-1", "'0042','FAMOUS FIVE PART-1", "'0051','FAMOUS FIVE PART-1", "'0052','FAMOUS FIVE PART-1", "'0011','SECRET SEVEN-1", "'1012','SECRET SEVEN-1", "'1021','SECRET SEVEN-2", "'1022','SECRET SEVEN-2", "'1031','SECRET SEVEN-3", "'1032','SECRET SEVEN-3", "'0011','SECRET SEVEN-1'0011','SECRET SEVEN-1" }));
+
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "JK ROWLING", "ENID BLYTON" }));
+
         javax.swing.GroupLayout return_frameLayout = new javax.swing.GroupLayout(return_frame.getContentPane());
         return_frame.getContentPane().setLayout(return_frameLayout);
         return_frameLayout.setHorizontalGroup(
             return_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, return_frameLayout.createSequentialGroup()
+                .addGap(81, 81, 81)
+                .addComponent(jButton12)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 371, Short.MAX_VALUE)
+                .addComponent(jButton11)
+                .addGap(72, 72, 72))
+            .addGroup(return_frameLayout.createSequentialGroup()
+                .addGap(289, 289, 289)
+                .addComponent(jLabel11)
+                .addContainerGap(280, Short.MAX_VALUE))
+            .addGroup(return_frameLayout.createSequentialGroup()
+                .addGap(131, 131, 131)
+                .addGroup(return_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel13)
+                    .addComponent(jLabel12))
+                .addGap(126, 126, 126)
+                .addGroup(return_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(76, Short.MAX_VALUE))
         );
         return_frameLayout.setVerticalGroup(
             return_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(return_frameLayout.createSequentialGroup()
+                .addGap(58, 58, 58)
+                .addComponent(jLabel11)
+                .addGap(114, 114, 114)
+                .addGroup(return_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel12)
+                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(65, 65, 65)
+                .addGroup(return_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel13)
+                    .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 193, Short.MAX_VALUE)
+                .addGroup(return_frameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, return_frameLayout.createSequentialGroup()
+                        .addComponent(jButton11)
+                        .addGap(51, 51, 51))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, return_frameLayout.createSequentialGroup()
+                        .addComponent(jButton12)
+                        .addGap(43, 43, 43))))
         );
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -481,6 +568,14 @@ catch(Exception e){
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton10ActionPerformed
 
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11ActionPerformed
+
     /**
     * @param args the command line arguments
     */
@@ -498,6 +593,8 @@ catch(Exception e){
     private javax.swing.JFrame Signup_Frame;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -506,15 +603,24 @@ catch(Exception e){
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
+    private javax.swing.JComboBox jComboBox1;
+    private javax.swing.JComboBox jComboBox2;
+    private javax.swing.JComboBox jComboBox3;
+    private javax.swing.JComboBox jComboBox4;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JTable jTable2;
     private javax.swing.JFrame mainscreen;
     private javax.swing.JTextField nametf1;
     private javax.swing.JFrame pay_frame;
